@@ -20,9 +20,6 @@ Xylocopa <- occ_data(scientificName = "Xylocopa violacea", country="DE", hasCoor
 # 2. Umwandeln in räumliche Objekte
 ######################################################
 
-# benötigte Bibliotheken 
-library(sf)
-
 # auslesen der relevanten Tabelle
 Xylocopa_spatial <- as.data.frame(Xylocopa$data)
 
